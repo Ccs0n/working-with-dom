@@ -23,5 +23,7 @@ for (const listItemEl of listItemElements) {
     console.dir(listItemEl);
 }
 
-const ul = document.querySelector("ul");
-// ul.children = [1];
+const ul = document.body.firstElementChild.nextElementSibling;
+const firstLi = ul.firstElementChild;
+
+console.log(firstLi)
